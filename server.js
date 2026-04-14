@@ -1,11 +1,3 @@
-
-
-//Sp1: price_1TLjMLJ4XJhGWuQEYLOYLxQJ
-
-//Sp2: price_1TLjPmJ4XJhGWuQEzXqUcnl7
-
-//Sp3: price_1TLjQRJ4XJhGWuQEhrG4IUtP
-
 const express = require("express");
 var cors = require("cors");
 const stripe = process.env.STRIPE_SECRET_KEY

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarComponent from "./components/NavbarComponent.jsx";
 import { Container } from "react-bootstrap";

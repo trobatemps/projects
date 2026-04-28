@@ -142,3 +142,42 @@ h1 {
 .navbar li {
   float: left;
 }
+
+/*cards-style*/
+
+:root {
+  --dark-grey: #1b1b32;
+  --light-grey: #f5f6f7;
+  --dark-orange: #f89808;
+}
+
+body {
+  background-color: var(--dark-grey);
+}
+
+.course-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.course-card {
+  border: 5px solid var(--dark-orange);
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  background-color: var(--light-grey);
+}
+
+.course-card-title {
+  border-bottom: 4px solid var(--dark-orange);
+  width: fit-content;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 300px;
+  }
+}

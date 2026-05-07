@@ -10,7 +10,7 @@ const MainPage = () => {
       <div className= "course-flex-container">
         {
           (courses.map((course) => (
-            <Card key={course.id} title={course.title} description={course.description} />
+            <Card key={course.id} title={course.title} description={course.description} link={course.link} />
           )))
         }
       </div>

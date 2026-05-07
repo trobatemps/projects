@@ -9,9 +9,12 @@ import Cancel from "./pages/store/Cancel.jsx";
 import Store from "./pages/store/Store.jsx";
 import Success from "./pages/store/Success.jsx";
 import MainPage from "./pages/mainpage/MainPage.jsx";
+import SpanishA1 from "./pages/courses/spanish-a1/SpanishA1";
+import Footer from "./components/footer/Footer.jsx";
 
 import CartProvider from "./CartContext.jsx";
 import NavbarMain from "./components/maincomponents/NavbarMain.jsx";
+import SpanishA2 from "./pages/courses/spanish-a2/SpanishA2.jsx";
 
 //localhost -> Home
 // localhost/success -> Success
@@ -32,8 +35,12 @@ function App() {
             <Route path="success" element={<Success />} />
             <Route path="cancel" element={<Cancel />} />
             <Route path="store" element={<Store />} />
+            /* Courses */
+            <Route path="spanisha1" element={<SpanishA1 />} />
+            <Route path="spanisha2" element={<SpanishA2 />} />
           </Routes>
         </BrowserRouter>
+        <Footer />
       </Container>
     </CartProvider>
   );
